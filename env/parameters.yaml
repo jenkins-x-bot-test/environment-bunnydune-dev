@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:bunnydune/adminUser:password
+  username: admin
+dashboardAuthID: vault:bunnydune:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:bunnydune:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:bunnydune/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:bunnydune/prow:hmacToken
